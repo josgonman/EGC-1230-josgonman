@@ -17,5 +17,3 @@ install:
 script:
   - cd decide
   - coverage run --branch --source=. ./manage.py test voting --keepdb
-  - coverage xml
-  - python-codacy-coverage -r coverage.xml
